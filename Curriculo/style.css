@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes padrão */
+    background-color: #f8f8f8; /* Define a cor de fundo do corpo */
+    padding: 20px; /* Adiciona um espaço ao redor do conteúdo */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#info-pessoais, #experiencia {
+    width: 46%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+#info-pessoais ul, #experiencia ul {
+    list-style: none;
+    padding: 0;
+}
+
+#info-pessoais img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#info-pessoais h2, #experiencia h2 {
+    margin-top: 20px;
+    color: #333; /* Define a cor dos títulos */
+}
+
+#info-pessoais a, #experiencia a {
+    text-decoration: none;
+    color: #007bff; /* Define a cor dos links */
+}
+
+#info-pessoais a:hover, #experiencia a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+#info-pessoais li, #experiencia li {
+    margin-bottom: 10px; /* Adiciona um espaço entre os itens da lista */
+}
+
+.fa-solid, #github {
+    color: greenyellow;
+    font-style: none;
+    width: 20px;
+}
+
+.TituloProfissional{
+    font-size: medium;
+}
